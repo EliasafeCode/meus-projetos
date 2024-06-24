@@ -139,11 +139,13 @@ main h1 {
 .image {
     margin: 35px 160px 100px 30px;
 }
-.image img {
+.image #image2 {
     height: 400px;
     margin-bottom: 40px;
 }
-
+#squareimage {
+    display: none;
+}
 #section3 {
     display: flex;
     flex-direction: column;
@@ -234,4 +236,52 @@ footer {
 }
 #section4 h1 {
     margin-bottom: px;
+}
+@media screen and (max-width: 900px){
+    body * {
+        border: 1px solid red;
+    }
+    nav ul, li{
+        display: none;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #size-left {
+        width: 256.968px;
+    }
+    #size-right {
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .image #image2, .image {
+        display: none;
+    }
+    .image #squareimage {
+        display: block;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
