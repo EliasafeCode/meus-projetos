@@ -124,7 +124,7 @@ main h1 {
     flex-direction: column;
     margin: 100px 30px 50px 200px;
 }
-.description h1 {
+#s2-h1 {
     text-align: center;
     font-size: 45px;
     color: #ffffff;
@@ -139,13 +139,11 @@ main h1 {
 .image {
     margin: 35px 160px 100px 30px;
 }
-.image #image2 {
+.image img {
     height: 400px;
     margin-bottom: 40px;
 }
-#squareimage {
-    display: none;
-}
+
 #section3 {
     display: flex;
     flex-direction: column;
@@ -250,7 +248,9 @@ footer {
         flex-direction: column;
         align-items: center;
     }
-
+    #size-left, #size-right {
+        margin: 5px 40px;
+    }
     #size-left {
         width: 256.968px;
     }
@@ -267,8 +267,6 @@ footer {
     .image #squareimage {
         display: block;
     }
-
-
 
 
 
